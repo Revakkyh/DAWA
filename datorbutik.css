@@ -1,0 +1,483 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/ v2.0 | 20110126 License: none (public domain) */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video
+{
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, main
+{
+display: block;
+}
+
+
+
+#breadcrumbs {
+ color: white;
+ float: left;
+ margin-left: 15%;
+}
+
+#Container {
+max-width:1200px;
+height: 960px;
+overflow:hidden;
+margin:auto;
+text-align:center;
+border-radius: 25px;
+}
+
+body{
+background-image: url("bakgrund.jpg");
+height:100%
+}
+
+header{
+float: left;
+background-color: white;
+width: 100%;
+height: 14%;
+}
+
+#mellanbild{
+	width: 100%;
+	height: 2%;
+	background-color: black;
+	float: left;
+}
+
+#loga{
+	height: 100%;
+	width:15%;
+	float:left;
+}
+
+#loga2{
+    height: 100%;
+    width: 15%;
+    float: left;
+}
+
+aside{
+float:left;
+width: 15%;
+height: 70%;
+background-color: black;
+}
+
+main{
+float:left;
+height: 70%;
+width: 65%;
+}
+
+#smile{
+	width:100%;
+	margin-top: 5%;
+
+}
+
+#asus{
+	width:50%;
+	margin-top: 15%;
+
+}
+
+#intel{
+	width:50%;
+	margin-top: 15%;
+
+}
+
+footer{
+width: 100%;
+height: 15%;
+background-color: grey;
+float: left;
+}
+
+#Kontaktinfo{
+margin-left: 5%;
+margin-top: 1%;
+margin-right: 1%;
+float: left;
+
+}
+
+#kredit{
+height: 70%;
+width: 70%;
+}
+
+#Betallaningsalternativ{
+width: 25%;
+float: left;
+margin-left: 15%;
+margin-top: 2%;
+}
+
+#trygg{
+height: 15%;
+width: 15%;
+}
+
+#Social{
+float: right;
+margin-right: 1%;
+margin-top: 2%;
+width: 25%;
+
+}
+
+#Socialamedier{
+	width:60%;
+	height:60%;
+}
+
+li{
+padding-top: 1em;
+padding-left: 1em;
+padding-right: 1em;
+float: left;
+}
+
+#ul1{
+background-color: black;
+float: left;
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow:hidden;
+width:85%;
+}
+
+
+#ul3 {
+list-style-type: none;
+margin: 0;
+padding: 0;
+width: 100%;
+height: 25%;
+background-color: black;
+float: left;
+}
+
+#ul4
+{
+list-style-type: none;
+margin: 0;
+padding: 0;
+width: 35%;
+height: 25%;
+padding-top: 1em;
+padding-left: 1em;
+float: left;
+}
+
+li a {
+display: block;
+color: white;
+padding: 0.6em 30%;
+text-decoration: none;
+float: left;
+}
+
+li a:hover:not(.active) {
+background-color: #555;
+color: white;
+}
+
+#varubild1{
+float:left;
+}
+
+#varubild2{
+float:left;
+}
+
+#varubild3{
+float: left;
+}
+
+#varubild4{
+float: left;
+}
+
+
+#litendiv1 {
+width: 20%;
+height: 35%;
+background-color:black;
+float: left;
+}
+
+#litendiv2 {
+width:20%;
+height: 35%;
+background-color:black;
+float: left;
+overflow: hidden;
+}
+
+#vara1{
+float:left;
+width:100%;
+height:25%;
+background-color: white;
+}
+
+#vara2{
+float:left;
+width:100%;
+height:25%;
+background-color: white;
+}
+
+#vara3{
+float:left;
+width:100%;
+height:25%;
+background-color: white;
+}
+
+#vara4{
+float:left;
+width:100%;
+height:25%;
+background-color: white;
+}
+
+#varutextdiv{
+height:100%;
+width:40%;
+background-color: white;
+float:left;
+}
+
+#priskundvagndiv{
+	float: left;
+
+	height: 100%;
+	width: 20%;
+}
+
+#varutext{
+
+float:left;
+text-align: left;
+width: 60%;
+
+}
+
+#logotype {
+margin-top: 1%;
+padding-right: 14%;
+width:50%;
+height: 50%
+}
+
+#divhet{
+width: 85%;
+height: 60%;
+background-color: white;
+margin: auto;
+border-radius: 2%;
+}
+
+#Hot{
+	width: 80%;
+	height: 60%
+}
+
+h1 {
+	color: white;
+	width:100%;
+}
+
+h3{
+float: left;
+}
+
+button {
+background-color: black;
+color: white;
+}
+
+#pris{
+	color: black;
+	margin-top: 5%;
+	font-size: 190%
+}
+
+@media screen and (max-width: 800px) {
+#litendiv1 {
+	display:none;
+}
+
+#litendiv2 {
+	display:none;
+}
+
+main{
+	width:80%;
+}
+
+aside{
+	width:20%;
+
+}
+
+#loga{
+	width:20%;
+}
+
+#ul1{
+	width:80%;
+}
+
+#varubild1{
+	width:30%;
+	height:100%;
+}
+
+#varubild2{
+	width:30%;
+	height:100%;
+}
+
+#varubild3{
+	width:30%;
+	height:100%;
+}
+
+#varubild4{
+	width:30%;
+	height:100%;
+}
+
+#varutextdiv{
+ width:40%;
+}
+
+#priskundvagndiv{
+  width:30%;
+}
+
+#Betallaningsalternativ{
+height: 80%;
+width: 30%;
+}
+
+#Social{
+height: 100%;
+}
+
+#trygg{
+height: 70%;
+}
+
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+#logotype {
+	width:70%;
+	height:60%;
+}
+
+#varubild1{
+	width:50%;
+	height:100%;
+
+}
+
+#varubild2{
+	width:50%;
+	height:100%;
+}
+
+#varubild3{
+	width:50%;
+	height:100%;
+}
+
+#varubild4{
+	width:50%;
+	height:100%;
+
+}
+
+#varutextdiv{
+display: none;
+
+}
+
+#ul1{
+width:100%;
+height: auto;
+}
+
+#Hem{
+  display: none;
+}
+
+#kredit{
+display: none;
+}
+
+aside{
+	display: none;
+}
+
+main{
+width:100%;
+}
+
+#Betallaningsalternativ{
+display: none;
+}
+
+#priskundvagndiv{
+float:right;
+width: 20%;
+padding-right: 20%;
+}
+
+#Hem{
+  visibility: hidden;
+}
+
+#Social{
+
+height: 100%;
+width: 30%;
+float: right;
+}
+
+#loga{
+display: none;
+}
+
+#ul4{
+height: 35%;
+width: 20%;
+}
+
+hr{
+  display: none;
+}
+
+#pnamn{
+  float:left;
+  width:20%;
+}
+
+}

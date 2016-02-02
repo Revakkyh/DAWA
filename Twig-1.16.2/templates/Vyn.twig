@@ -1,0 +1,16 @@
+{# empty Twig template #}
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+    </head>
+    
+    <body>
+        <ul>
+            {%for produkt in h13cleri_produkter%}
+                
+                <li>{{produkt.ID}},{{produkt.Kategori}},{{produkt.Produktnamn}},{{produkt.Produktinfo}},{{produkt.Pris}},{{produkt.Bildurl}}</li>
+{%endfor%}
+        </ul>
+    </body>
+</html>
